@@ -4,7 +4,7 @@
 	
 	<head>
 		<title>Pokedex</title>
-
+		<link type="text/css" rel="stylesheet" href="public/stylesheet.css" />
 	</head>
 
 	<body>

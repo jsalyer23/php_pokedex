@@ -1,5 +1,5 @@
 <?php 
-	include("layout/top.php");
+	include("top.php");
 	$this_page = "Home";
 ?>
 
@@ -15,6 +15,12 @@
 		<p>This is just some filler to see what i'm working with so far</p>
 	</div>
 
+	<form action="view.php">
+		<div>
+			Name: <input method="get" name="name" type="text" />
+		</div>
+	</form>
+
 <?php
-	include("layout/bottom.php")
+	include("bottom.php")
 ?>

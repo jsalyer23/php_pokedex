@@ -1,13 +1,16 @@
 .flex_container {
-	
+	display: flex;
+	flex-direction: column;
 }
 
-.top {
-
+.topBar {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
 }
 
 .content {
-
+	display: flex;
 }
 
 .bottom {
@@ -15,5 +18,45 @@
 }
 
 .navigation {
+	display: flex;
 
+}
+
+.navigation__link {
+	display: flex;
+	padding-left: 50px;
+	
+}
+
+.navigation__link a {
+	text-decoration: none;
+	color: black;
+	font-size: 25px;
+}
+
+.navigation__link a:hover {
+	color: red;
+}
+
+.gallery {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	
+}
+
+.gallery__pokemon {
+	display: flex;
+
+}
+
+.gallery__image {
+	height: 100px;
+	width: 100px;
+	padding: 30px;
+}
+
+.view_image {
+	height: 250px;
+	width: 250px;
 }
