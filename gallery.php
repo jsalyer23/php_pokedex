@@ -12,3 +12,7 @@
 
 	<?php } ?>
 </div>
+
+<?php
+	include("bottom.php");
+?>
